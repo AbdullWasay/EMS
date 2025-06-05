@@ -20,7 +20,9 @@ app.use(helmet({
       fontSrc: ["'self'", "https://fonts.gstatic.com"],
       imgSrc: ["'self'", "data:", "https://res.cloudinary.com"],
       scriptSrc: ["'self'"],
-      connectSrc: ["'self'", "http://localhost:3000", "http://localhost:3001"]
+      connectSrc: ["'self'", "*"]
+
+
     }
   }
 }));
@@ -53,13 +55,13 @@ app.use('/api/', generalLimiter);
 
 // CORS Configuration
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production'
-    ? ['https://yourdomain.com']
-    : ['http://localhost:3000', 'http://localhost:3001'],
+  origin: true, // allows all origins
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
+
+
 
 // Body parsing middleware
 app.use(express.json({ limit: '10mb' }));
