@@ -147,7 +147,7 @@ const AdminLayout = ({ children }) => {
             fontSize: '1.1rem'
           }}
         >
-          Delivero Worx
+          DELIVERWORX LTD
         </Typography>
         <Typography
           variant="caption"
@@ -159,7 +159,7 @@ const AdminLayout = ({ children }) => {
             fontSize: '0.7rem'
           }}
         >
-          Employee Management
+          FINAL MILE EXPERTS
         </Typography>
       </Box>
 

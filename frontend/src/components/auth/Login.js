@@ -1,22 +1,22 @@
 import {
-    Business as BusinessIcon,
-    Lock as LockIcon,
-    Person as PersonIcon,
-    Visibility,
-    VisibilityOff
+  Business as BusinessIcon,
+  Lock as LockIcon,
+  Person as PersonIcon,
+  Visibility,
+  VisibilityOff
 } from '@mui/icons-material';
 import {
-    Alert,
-    Avatar,
-    Box,
-    Button,
-    CircularProgress,
-    Container,
-    IconButton,
-    InputAdornment,
-    Paper,
-    TextField,
-    Typography
+  Alert,
+  Avatar,
+  Box,
+  Button,
+  CircularProgress,
+  Container,
+  IconButton,
+  InputAdornment,
+  Paper,
+  TextField,
+  Typography
 } from '@mui/material';
 import { Form, Formik } from 'formik';
 import { useContext, useEffect, useState } from 'react';
@@ -129,7 +129,7 @@ const Login = () => {
                 lineHeight: 1.2
               }}
             >
-              Delivero Worx
+              DELIVERWORX LTD
             </Typography>
             <Typography
               variant="body2"
@@ -141,7 +141,7 @@ const Login = () => {
                 fontSize: '0.9rem'
               }}
             >
-              Employee Management System
+              FINAL MILE EXPERTS
             </Typography>
             <Box
               sx={{
@@ -329,7 +329,7 @@ const Login = () => {
                       <span>Signing In...</span>
                     </Box>
                   ) : (
-                    'Sign In to Delivero Worx'
+                    'Sign In '
                   )}
                 </Button>
 
