@@ -145,9 +145,4 @@ cd frontend
 npm start
 ```
 
-## 🔑 Admin Credentials
 
-```
-Email: admin@company.com
-Password: admin123
-```
